@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBAction func showOutput(_ sender: UIButton) {
         // grab the text from the text field
         // and write it into the label
-        lblName.text = txtName.text
+        lblName.text = "Hello" + txtName.text!
     }
     
 }
